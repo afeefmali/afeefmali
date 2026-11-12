@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Afeef Muhammed Ali — SOC-focused cybersecurity</title>
+  <desc id="desc">A dark violet banner with the name Afeef Muhammed Ali, the line "Turning noisy telemetry into clear decisions," and a stylised SOC alert-triage console showing a critical PowerShell detection.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0710"/>
+      <stop offset="0.55" stop-color="#0d0815"/>
+      <stop offset="1" stop-color="#140b20"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d4c4ff"/>
+      <stop offset="0.5" stop-color="#b49cff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120c1b"/>
+      <stop offset="1" stop-color="#0b0711"/>
+    </linearGradient>
+    <linearGradient id="alertGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f43f5e" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f43f5e" stop-opacity="0.02"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4c1d95" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#4c1d95" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1280" height="360" rx="0"/>
+    </clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+    <ellipse cx="1080" cy="60" rx="340" ry="240" fill="url(#glowA)"/>
+    <ellipse cx="860" cy="340" rx="380" ry="260" fill="url(#glowB)"/>
+
+    <!-- watermark -->
+    <text x="720" y="320" font-family="'Helvetica Neue', Arial, sans-serif" font-size="250" font-weight="700" letter-spacing="18" fill="#ffffff" fill-opacity="0.022">AFEEX</text>
+
+    <!-- left: intro -->
+    <g>
+      <rect x="72" y="52" width="272" height="33" rx="16.5" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.1"/>
+      <circle cx="90" cy="68.5" r="4" fill="#7ee0c1"/>
+      <circle cx="90" cy="68.5" r="7.5" fill="none" stroke="#7ee0c1" stroke-opacity="0.35"/>
+      <text x="106" y="73" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="10.5" letter-spacing="1.5" fill="#a79fb6">SOC-FOCUSED · DETECTION &amp; RESPONSE</text>
+
+      <text x="70" y="168" font-family="'Helvetica Neue', Arial, sans-serif" font-size="70" font-weight="600" letter-spacing="-3.6" fill="#f3eff8">Afeef</text>
+      <text x="70" y="248" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="72" letter-spacing="-1.5" fill="url(#violet)">Muhammed</text>
+      <text x="404" y="248" font-family="'Helvetica Neue', Arial, sans-serif" font-size="68" font-weight="600" letter-spacing="-3.2" fill="#f3eff8">Ali</text>
+
+      <text x="72" y="294" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#a79fb6">Turning noisy telemetry into <tspan font-family="Georgia, serif" font-style="italic" fill="#b49cff" font-size="21">clear</tspan> decisions.</text>
+
+      <rect x="72" y="318" width="44" height="2" rx="1" fill="#8b5cf6"/>
+      <text x="128" y="325" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" letter-spacing="2" fill="#7d748c">GITHUB.COM/AFEEFMALI</text>
+    </g>
+
+    <!-- right: alert triage console -->
+    <g transform="translate(770 34) rotate(-2 220 146)">
+      <rect x="0" y="0" width="440" height="292" rx="16" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.14"/>
+      <rect x="0.5" y="0.5" width="439" height="33" rx="15.5" fill="#ffffff" fill-opacity="0.025"/>
+
+      <circle cx="18" cy="17" r="4" fill="#f87171"/>
+      <circle cx="32" cy="17" r="4" fill="#fbbf24"/>
+      <circle cx="46" cy="17" r="4" fill="#34d399"/>
+      <text x="220" y="21" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="9" fill="#6f6283">soc-console — alert queue</text>
+      <circle cx="396" cy="17" r="3" fill="#7ee0c1"/>
+      <text x="406" y="20" font-family="'SFMono-Regular', Consolas, monospace" font-size="7.5" letter-spacing="1" fill="#7ee0c1">LIVE</text>
+
+      <!-- alert row 1 -->
+      <rect x="14" y="52" width="412" height="42" rx="8" fill="#8b5cf6" fill-opacity="0.1" stroke="#b49cff" stroke-opacity="0.24"/>
+      <rect x="24" y="62" width="52" height="16" rx="4" fill="#f43f5e" fill-opacity="0.12" stroke="#f43f5e" stroke-opacity="0.3"/>
+      <text x="50" y="73" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="7" letter-spacing="0.6" fill="#fda4af">CRITICAL</text>
+      <text x="88" y="70" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#e7def4">Encoded PowerShell from WINWORD</text>
+      <text x="88" y="84" font-family="'SFMono-Regular', Consolas, monospace" font-size="8" fill="#8d7ca4">WIN-01 · T1059.001</text>
+      <text x="412" y="73" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="8" fill="#6f6283">2m</text>
+
+      <!-- alert row 2 -->
+      <rect x="14" y="98" width="412" height="38" rx="8" fill="#ffffff" fill-opacity="0.02"/>
+      <rect x="24" y="107" width="40" height="16" rx="4" fill="#fbbf24" fill-opacity="0.1" stroke="#fbbf24" stroke-opacity="0.26"/>
+      <text x="44" y="118" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="7" letter-spacing="0.6" fill="#fcd34d">HIGH</text>
+      <text x="88" y="115" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#d9cee8">Multiple failed logons on DC</text>
+      <text x="88" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="7.5" fill="#8d7ca4">DC-01 · T1110.003</text>
+      <text x="412" y="118" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="8" fill="#6f6283">11m</text>
+
+      <!-- alert row 3 -->
+      <rect x="14" y="140" width="412" height="38" rx="8" fill="#ffffff" fill-opacity="0.02"/>
+      <rect x="24" y="149" width="52" height="16" rx="4" fill="#38bdf8" fill-opacity="0.1" stroke="#38bdf8" stroke-opacity="0.24"/>
+      <text x="50" y="160" text-anchor="middle" font-family="'SFMono-Regular', Consolas, monospace" font-size="7" letter-spacing="0.6" fill="#7dd3fc">MEDIUM</text>
+      <text x="88" y="157" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#d9cee8">Rare outbound DNS request</text>
+      <text x="88" y="170" font-family="'SFMono-Regular', Consolas, monospace" font-size="7.5" fill="#8d7ca4">WS-07 · T1071.004</text>
+      <text x="412" y="160" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="8" fill="#6f6283">26m</text>
+
+      <!-- selected alert detail -->
+      <rect x="14" y="188" width="412" height="64" rx="10" fill="url(#alertGlow)" stroke="#f43f5e" stroke-opacity="0.26"/>
+      <text x="26" y="205" font-family="'SFMono-Regular', Consolas, monospace" font-size="7.5" letter-spacing="0.8" fill="#fda4af">AL-1042 · T1059.001</text>
+      <text x="230" y="205" text-anchor="end" font-family="'SFMono-Regular', Consolas, monospace" font-size="7.5" fill="#7ee0c1">CONTAINED</text>
+      <text x="26" y="221" font-family="'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#f1e9fa">Office spawned an encoded PowerShell child</text>
+      <text x="26" y="238" font-family="'SFMono-Regular', Consolas, monospace" font-size="8" fill="#b8a9cb">WIN-01 · j.reyes · verdict: true positive</text>
+
+      <!-- footer query -->
+      <rect x="0.5" y="262" width="439" height="29.5" rx="0" fill="#08050d"/>
+      <text x="16" y="280" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" fill="#7ee0c1">$</text>
+      <text x="28" y="280" font-family="'SFMono-Regular', Consolas, monospace" font-size="8.5" fill="#8d7ca4">index=endpoint EventCode=4688 | stats count by Image</text>
+      <rect x="384" y="271" width="5" height="11" fill="#b49cff"/>
+    </g>
+
+    <!-- border -->
+    <rect x="0.5" y="0.5" width="1279" height="359" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+  </g>
+</svg>
